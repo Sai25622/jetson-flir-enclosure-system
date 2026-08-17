@@ -48,10 +48,30 @@ An industrial, fully weatherproof enclosure designed to house an Nvidia Jetson O
    * Secure the **T-Mount Plate** into the **DIN Rail Clip**.
 
 3. **Internal Electronics Installation:**
-   * Press the 12 **M4 Brass Heat-Set Inserts** into the internal mounting bosses of `Enclosure_Bottom_Housing.stl` using a soldering iron.
+   * Press the  **M4 Brass Heat-Set Inserts** into the internal mounting bosses of `Enclosure_Bottom_Housing.stl` using a soldering iron.
    * Secure the Jetson Orin compute unit onto the bottom standoffs using M4 bolts.
 
 4. **Main Enclosure Sealing & Mounting:**
    * Press the **Main Enclosure Gasket** into the perimeter channel of `Enclosure_Bottom_Housing.stl`.
    * Align `Enclosure_Top_Cover.stl` and tighten down the outer M4 x 25mm hex bolts and nuts evenly in a cross pattern to compress the gasket.
    * Snap the assembled **DIN Rail Clip** directly onto your 35mm DIN rail.
+
+## 🖨️ 3D Printing Recommendations
+
+To guarantee structural strength, UV resistance, and true watertight integrity, use these tuned slicer settings based on component material:
+
+| Setting | Rigid Components (ASA / PETG-CF) | Flexible Seals (TPU 85A–95A) |
+| :--- | :--- | :--- |
+| **Target Components** | Body, Cover, Camera Housing, Pivot Arms, DIN Clip | Main Gasket, Camera Gasket, Wire Gasket |
+| **Layer Height** | 0.20 mm | 0.16 mm – 0.20 mm |
+| **Wall Loops / Perimeters** | 4 – 5 walls | 100% Solid (or 4+ perimeters) |
+| **Top / Bottom Layers** | 5 Top / 5 Bottom | 5 Top / 5 Bottom |
+| **Infill** | 35 - 40% (Gyroid pattern) |
+
+---
+
+### 💧 Watertight Printing & Post-Processing Tips
+
+* **Solid Perimeter Gaskets:** Always print TPU gaskets with 100% solid walls and infill. Internal voids or lower infill settings in TPU can allow water to capillary-bleed along layer lines under pressure.
+* **Sealing FDM Layer Lines:** For extreme weather conditions, brush a thin coat of UV-resistant epoxy resin or clear polyurethane finish over the exterior surfaces of the ASA/PETG housing to completely seal micro-gaps between layer lines.
+* **Extruder Setup:** Print TPU on a direct-drive extruder (if possible) at slow, consistent speeds (20–30 mm/s) to avoid binding in the feed gear and to ensure smooth perimeter walls on gasket mating faces.
