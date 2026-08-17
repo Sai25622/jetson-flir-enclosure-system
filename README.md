@@ -2,7 +2,7 @@
 
 An industrial, fully weatherproof enclosure designed to house an Nvidia Jetson Orin compute board paired with a Tamron lens and FLIR Firefly camera sensor. Features active thermal management, an articulated camera neck, and 35mm DIN rail compatibility.
 
-![Enclosure Overview](Images/render_01.png)
+![Enclosure Overview](Images/Assembled System.png)
 
 ## 📌 Key Engineering Features
 
