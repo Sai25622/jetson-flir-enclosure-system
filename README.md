@@ -2,7 +2,7 @@
 
 An industrial, fully weatherproof enclosure designed to house an Nvidia Jetson Orin compute board paired with a Tamron lens and FLIR Firefly camera sensor. Features active thermal management, articulated pivot arms, dedicated sealing gaskets, and a snap-on DIN rail interface.
 
-![Enclosure Overview](ImagesAssembled_System.png)
+![Enclosure Overview](Images/Assembled_System.png)
 
 ## 📌 Key Engineering Features
 
@@ -25,7 +25,7 @@ An industrial, fully weatherproof enclosure designed to house an Nvidia Jetson O
 | Sensor Wire Gasket | 1 | TPU (85A–95A) | Cable pass-through gasket for FLIR wiring |
 | Pivot Arms | 1 | PETG-CF / ASA | Articulated positioning arms |
 | T-Mount Plate | 1 | PETG-CF / ASA | Interface between Pivot Arms and DIN clip |
-| DIN Rail Clip | 1 | PETG-CF / ASA | Snaps onto 35mm DIN rail |
+| DIN Rail Clip | 2 | PETG-CF / ASA | Snaps onto 35mm DIN rail |
 
 ### Hardware & Fasteners
 | Fastener / Part | Qty | Description & Supplier Link |
